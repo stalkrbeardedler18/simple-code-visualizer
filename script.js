@@ -1,5 +1,5 @@
 document.getElementById('visualize-btn').addEventListener('click', function() {
-    const codeSnippet = document.getElementById('code Snippet').value;
+    const codeSnippet = document.getElementById('codeSnippet').value;
     visualizeCode(codeSnippet);
 });
 
