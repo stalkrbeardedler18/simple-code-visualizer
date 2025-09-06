@@ -27,10 +27,10 @@ button {
     background-color: #5cb85c;
     color: white;
     border: none;
-    padding: 10px 20px; /* Updated padding */
+    padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Added transition */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Updated transition */
 }
 
 button:hover {
