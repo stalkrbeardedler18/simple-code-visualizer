@@ -10,7 +10,7 @@ document.getElementById('visualize-btn').addEventListener('click', function() {
 function visualizeCode(code) {
     const resultDiv = document.getElementById('visualization-result');
     // Replace with actual visualization logic
-    resultDiv.innerHTML = `<pre>${htmlEscape(code)}</pre>`;
+    resultDiv.innerHTML = `<pre>${htmlEscape(code).replace(/\n/g, '<br>')}</pre>`;
 }
 
 function htmlEscape(str) {
