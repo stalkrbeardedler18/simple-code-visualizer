@@ -27,7 +27,7 @@ button {
     background-color: #5cb85c;
     color: white;
     border: none;
-    padding: 12px 15px;
+    padding: 10px 20px; /* Updated padding */
     font-size: 1em;
     cursor: pointer;
 }
