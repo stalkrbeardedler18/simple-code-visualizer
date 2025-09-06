@@ -4,7 +4,11 @@ document.getElementById('visualize-btn').addEventListener('click', function() {
         alert('Please enter a non-empty code snippet to visualize.');
         return;
     }
-    visualizeCode(codeSnippet);
+    try {
+        visualizeCode(codeSnippet);
+    } catch (error) {
+        alert('An error occurred while visualizing the code: ' + error.message);
+    }
 });
 
 function visualizeCode(code) {
