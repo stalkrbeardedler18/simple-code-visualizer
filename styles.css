@@ -36,6 +36,11 @@ button:hover {
     background-color: #4cae4c;
 }
 
+button:active {
+    background-color: #5cb85c;
+    transform: translateY(1px);
+}
+
 #visualization-result {
     background: white;
     padding: 15px;
