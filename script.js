@@ -1,7 +1,7 @@
 document.getElementById('visualize-btn').addEventListener('click', function() {
     const codeSnippet = document.getElementById('codeSnippet').value;
     if (codeSnippet.trim() === '') {
-        console.log('Please enter a code snippet to visualize.');
+        alert('Please enter a code snippet to visualize.');
         return;
     }
     visualizeCode(codeSnippet);
